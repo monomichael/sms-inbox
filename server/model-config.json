@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Message": {
+    "dataSource": "db",
+    "public": true
   }
 }
