@@ -1,0 +1,20 @@
+<h1>Inbox</h1>
+
+<table class="u-full-width">
+  <thead>
+    <tr>
+      <th>Received at</th>
+      <th>Sender</th>
+      <th>Text</th>
+      <th>Options</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="message in messages">
+      <td>{{message.received_at}}</td>
+      <td>{{message.sender}}</td>
+      <td>{{message.text}}</td>
+      <td><a ng-click="removeMessage(message)">1</a></td>
+    </tr>
+  </tbody>
+</table>
