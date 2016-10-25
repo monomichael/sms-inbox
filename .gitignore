@@ -18,3 +18,5 @@ coverage
 node_modules
 client/vendor
 npm-debug.log
+client/js/lb-services.js
+
